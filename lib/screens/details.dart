@@ -16,7 +16,6 @@ class _DetailPageState extends State<Details> {
 
   void _incrementCounter() {
     setState(() {
-
       _counter++;
     });
   }
@@ -31,7 +30,7 @@ class _DetailPageState extends State<Details> {
 
   Widget build(BuildContext context) {
     Map<String, dynamic> data =
-        ModalRoute.of(context)!.settings.arguments as Map<String,dynamic>;
+        ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
@@ -151,6 +150,16 @@ class _DetailPageState extends State<Details> {
                         width: 70,
                         child: Text(
                           "⭐️ ${data['ratting']}",
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 70,
+                        child: Text(
+                          "🔥${data['klca']}",
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,

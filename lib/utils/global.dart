@@ -9,7 +9,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 4.2,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Double_Cheese_Margherita.jpg",
           'discription':
@@ -21,7 +26,12 @@ class Global {
           'time': '20min',
           'price': 399,
           'ratting': 4.5,
+          'klca': 100,
           'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Corn_&_Cheese.jpg",
           'discription': "Cheese I Golden Corn | Cheese n Corn Pizza",
@@ -32,7 +42,12 @@ class Global {
           'time': '20min',
           'price': 499,
           'ratting': 4.1,
+          'klca': 100,
           'discount': 20,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Veg_Extravaganz.jpg",
           'discription':
@@ -44,7 +59,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 4.9,
+          'klca': 100,
           'discount': 18,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Deluxe_Veggie.jpg",
           'discription':
@@ -56,7 +76,12 @@ class Global {
           'time': '20min',
           'price': 345,
           'ratting': 5,
+          'klca': 100,
           'discount': 16,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Mexican_Green_Wave.jpg",
           'discription':
@@ -68,7 +93,12 @@ class Global {
           'time': '20min',
           'price': 400,
           'ratting': 4.8,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail': "https://www.dominos.co.in/files/items/Peppy_Paneer.jpg",
           'discription':
               "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
@@ -84,7 +114,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 4.8,
+          'klca': 100,
           'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(10).png",
           'discription':
@@ -96,7 +131,12 @@ class Global {
           'time': '20min',
           'price': 445,
           'ratting': 4.3,
+          'klca': 100,
           'discount': 18,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(20).png",
           'discription':
@@ -108,7 +148,12 @@ class Global {
           'time': '20min',
           'price': 395,
           'ratting': 4.6,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(17).png",
           'discription': "Chicken Sausage & Cheese",
@@ -119,7 +164,12 @@ class Global {
           'time': '20min',
           'price': 595,
           'ratting': 4.9,
+          'klca': 100,
           'discount': 15,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Pepper_Barbeque_&_Onion.jpg",
           'discription': "Pepper Barbecue Chicken I Onion",
@@ -130,7 +180,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 4,
+          'klca': 100,
           'discount': 8,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(11).png",
           'discription':
@@ -142,7 +197,12 @@ class Global {
           'time': '20min',
           'price': 345,
           'ratting': 4.8,
+          'klca': 100,
           'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(14).png",
           'discription':
@@ -151,7 +211,7 @@ class Global {
       ],
     },
     {
-      'categoryName': 'PIZZA MANIA',
+      'categoryName': 'Pizza Mania',
       'categoryFoods': [
         {
           'id': 1,
@@ -159,7 +219,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 5,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail': "https://www.dominos.co.in/files/items/PrimeLoadedL.jpg",
           'discription':
               "Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust",
@@ -170,7 +235,12 @@ class Global {
           'time': '20min',
           'price': 399,
           'ratting': 4.8,
+          'klca': 100,
           'discount': 20,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail': "https://www.dominos.co.in/files/items/PrimeCheesyL.jpg",
           'discription': "Orange Cheddar Cheese I Mozzarella",
         },
@@ -180,7 +250,12 @@ class Global {
           'time': '20min',
           'price': 499,
           'ratting': 4.2,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/Paneer_Special.jpg",
           'discription': "Creamy Paneer I Onion",
@@ -191,7 +266,12 @@ class Global {
           'time': '20min',
           'price': 299,
           'ratting': 4.1,
+          'klca': 100,
           'discount': 16,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail': "https://www.dominos.co.in/files/items/CapsicumVeg.jpg",
           'discription': "Capsicum",
         },
@@ -201,7 +281,12 @@ class Global {
           'time': '20min',
           'price': 345,
           'ratting': 4.3,
+          'klca': 100,
           'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/cheese_and_tomato.png",
           'discription': "A delectable combination of cheese and juicy tomato",
@@ -212,7 +297,12 @@ class Global {
           'time': '20min',
           'price': 400,
           'ratting': 4.6,
+          'klca': 100,
           'discount': 15,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://www.dominos.co.in/files/items/golden_corn_veg.jpg",
           'discription': "Golden Corn - Sweet Corn Pizza",
@@ -228,7 +318,12 @@ class Global {
           'time': '20min',
           'price': 40,
           'ratting': 4.4,
+          'klca': 100,
           'discount': 4,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://4.imimg.com/data4/NG/JC/MY-30165244/cold-drink-500x500.jpg",
           'discription':
@@ -240,7 +335,12 @@ class Global {
           'time': '20min',
           'price': 69,
           'ratting': 4.8,
+          'klca': 100,
           'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://c8.alamy.com/comp/2G26GPA/mojito-cocktail-in-a-plastic-glass-with-a-tube-on-a-yellow-background-2G26GPA.jpg",
           'discription':
@@ -252,7 +352,12 @@ class Global {
           'time': '20min',
           'price': 100,
           'ratting': 4.6,
+          'klca': 100,
           'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://thumbs.dreamstime.com/b/summer-mint-strawberry-refreshing-cocktail-mojito-ice-plastic-glass-straw-carbonated-mineral-water-glass-drinks-276497618.jpg",
           'discription':
@@ -264,7 +369,12 @@ class Global {
           'time': '20min',
           'price': 99,
           'ratting': 4.7,
+          'klca': 100,
           'discount': 18,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://previews.123rf.com/images/thaweerat/thaweerat1705/thaweerat170500003/78896651-colorful-cocktail-or-tropical-mocktail-plastic-glass-of-energy-drink-with-lemonade-orange-juice.jpg",
           'discription':
@@ -276,7 +386,12 @@ class Global {
           'time': '20min',
           'price': 199,
           'ratting': 5,
+          'klca': 100,
           'discount': 16,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
           'thumbnail':
               "https://previews.123rf.com/images/roxiller/roxiller2005/roxiller200500142/146731154-summer-refreshment-drinks-light-pink-rose-cocktail-with-rose-wine-on-a-white-table-with-rose-flowers.jpg",
           'discription':
@@ -299,7 +414,31 @@ buyfoodsPrice() {
   return sum;
 }
 
+int delivery = 80;
+int cartprice = 0;
+int subTotal = 0;
+int gettotal = 0;
+
+updateCartPrice() {
+  cartprice = 0;
+  cartfoods.forEach((e) {
+    cartprice += int.parse(e['cartprice'] * e['quantity']);
+  });
+}
+
 lengthCart() {
   num cartLength = cartfoods.length;
   return cartLength;
+}
+
+updateSubtotal() {
+  subTotal = 0;
+  cartfoods.forEach((e) {
+    subTotal += int.parse(e['price'] * e['quantity']);
+  });
+}
+
+updateTotal() {
+  updateSubtotal();
+  gettotal = subTotal + delivery;
 }

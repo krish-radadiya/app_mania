@@ -229,34 +229,30 @@ class _appmaniaState extends State<appmania> {
                                                       right: 10,
                                                     ),
                                                     child: IconButton(
-                                                      alignment:
-                                                          Alignment.bottomRight,
                                                       onPressed: () {
-                                                        setState(
-                                                          () {
-                                                            e['fav'] ==
-                                                                !e['fav'];
-                                                            if (e['fav'] ==
-                                                                true) {
-                                                              Global.addFav
-                                                                  .add(e);
-                                                            } else if (e[
-                                                                    'fav'] ==
-                                                                false) {
-                                                              Global.favData
-                                                                  .remove(e);
-                                                            }
-                                                          },
-                                                        );
+                                                        setState(() {
+                                                          e['faveProduct'] =
+                                                          !e['faveProduct'];
+                                                        });
+                                                        (e['faveProduct'] ==
+                                                            true)
+                                                            ? cartfoods.add(e)
+                                                            : cartfoods
+                                                            .remove(e);
                                                       },
-                                                      icon: (e['fav'] == false)
+                                                      icon: (e['faveProduct'] ==
+                                                          false)
                                                           ? const Icon(
-                                                              Icons.favorite,
-                                                            )
+                                                        Icons
+                                                            .favorite_outline_rounded,
+                                                        color:
+                                                        Colors.red,
+                                                      )
                                                           : const Icon(
-                                                              Icons
-                                                                  .favorite_border_rounded,
-                                                            ),
+                                                        Icons.favorite,
+                                                        color:
+                                                        Colors.red,
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
