@@ -113,32 +113,16 @@ class _cartPageState extends State<favourite> {
                                             fontWeight: FontWeight.w700,
                                           ),
                                         ),
+                                        SizedBox(
+                                          width: 10,
+                                        ),
                                         Text(
                                           "⭐️ ${e['ratting']}",
                                           style: TextStyle(
                                             fontSize: 14,
                                           ),
                                         ),
-                                        IconButton(
-                                          onPressed: () {
-                                            setState(() {
-                                              e['faveProduct'] =
-                                                  !e['faveProduct'];
-                                            });
-                                            (e['faveProduct'] == true)
-                                                ? cartfoods.add(e)
-                                                : cartfoods.remove(e);
-                                          },
-                                          icon: (e['faveProduct'] == false)
-                                              ? const Icon(
-                                                  Icons.favorite_outline_rounded,
-                                                  color: Colors.amber,
-                                                )
-                                              : const Icon(
-                                                  Icons.favorite,
-                                                  color: Colors.amber,
-                                                ),
-                                        ),
+
                                       ],
                                     ),
                                   ),
@@ -157,25 +141,15 @@ class _cartPageState extends State<favourite> {
                                         fontWeight: FontWeight.w700,
                                       ),
                                     ),
-                                    Text(
-                                      "🔥 ${e['klca']}",
-                                      style: TextStyle(
-                                        color: Colors.grey,
-                                      ),
-                                    ),
-                                    Text(
-                                      "⏰ ${e['time']}",
-                                      style: TextStyle(
-                                        color: Colors.grey,
-                                      ),
-                                    ),
                                   ],
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                               ],
+
                             ),
+
                           ),
                         ),
                       ],

@@ -104,10 +104,9 @@ class _cartPageState extends State<cartPage> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceAround,
                                     children: [
-                                      const SizedBox(),
                                       Row(
                                         mainAxisAlignment:
-                                            MainAxisAlignment.spaceAround,
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Expanded(
                                             flex: 2,
@@ -119,6 +118,31 @@ class _cartPageState extends State<cartPage> {
                                               ),
                                             ),
                                           ),
+                                          SizedBox(width: 10,),
+                                          Text(
+                                            "₹ ${e['price']}",
+                                            style: const TextStyle(
+                                              fontSize: 15,
+                                              fontWeight: FontWeight.w700,
+                                            ),
+                                          ),
+                                          SizedBox(width: 40,),
+
+                                          GestureDetector(
+                                            onTap: () {
+                                              setState(() {
+                                                cartfoods.remove(e);
+                                              });
+                                            },
+                                            child: Text(
+                                              "DELETE",
+                                              style: TextStyle(
+                                                fontSize: 18,
+                                                decoration: TextDecoration.underline,
+                                                color: Colors.red,
+                                              ),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                       SingleChildScrollView(
@@ -126,18 +150,12 @@ class _cartPageState extends State<cartPage> {
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text(
-                                              "₹ ${e['price']}",
-                                              style: const TextStyle(
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.w700,
-                                              ),
-                                            ),
+
                                             const SizedBox(
                                               height: 5,
                                             ),
                                             Text(
-                                              "₹ ${e['discription']}",
+                                              "${e['discription']}",
                                               style: TextStyle(
                                                 color: Colors.grey.shade400,
                                               ),
