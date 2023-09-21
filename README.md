@@ -1,4 +1,12 @@
-![2e33325e-22f6-4625-9b01-366f4fe32c25](https://github.com/krish-radadiya/app_mania/assets/113992828/ea0af761-e23a-42f1-bcf5-253df4bc22ce)
-![1d5bcdc6-cbbd-4511-95a2-3639a395e938](https://github.com/krish-radadiya/app_mania/assets/113992828/1dd13b89-7f5b-4ee8-92d8-1ba42d345341)
-![fa35a3a2-169d-4aa3-a20a-54b8d790ae7d](https://github.com/krish-radadiya/app_mania/assets/113992828/ec0be44b-f77e-44e4-826a-506b02dd097f)
-![5dc5350f-9478-4c5e-b5ed-2ae205796c33](https://github.com/krish-radadiya/app_mania/assets/113992828/b36f86b1-6357-41fb-8132-86a12fcf3d14)
+![57a8b89f-aa6c-440e-80dd-4d96831ded3c](https://github.com/krish-radadiya/app_mania/assets/113992828/dc7369cb-b2e6-415d-a1f0-42d34411c65c)
+
+![afb31e76-a0d6-478b-b0bd-625eb57d6a55](https://github.com/krish-radadiya/app_mania/assets/113992828/7b245b44-6189-4a2e-a5d3-f983cdc6d6c5)
+
+![56b39c69-7cc8-40c0-a3a6-233bb3eeec79](https://github.com/krish-radadiya/app_mania/assets/113992828/f575f86b-41a2-4308-9089-032881c37a12)
+
+![0b7074a0-6a3b-45da-9ce1-03813974c263](https://github.com/krish-radadiya/app_mania/assets/113992828/aa24a6e0-f577-4927-97b1-2c9e8ef563df)
+
+
+
+https://github.com/krish-radadiya/app_mania/assets/113992828/7c1dbd1a-97fd-4bab-8bf6-3cd617fad339
+
