@@ -66,13 +66,8 @@ class _cartPageState extends State<cartPage> {
                         children: cartfoods.map((e) {
                           return Container(
                             margin: const EdgeInsets.only(bottom: 10),
-                            padding: const EdgeInsets.only(
-                              top: 10,
-                              right: 5,
-                              left: 5,
-                              bottom: 10,
-                            ),
-                            height: MediaQuery.of(context).size.height / 5,
+                            padding: const EdgeInsets.all(8),
+                            height: MediaQuery.of(context).size.height / 5.5,
                             width: MediaQuery.of(context).size.width / 1,
                             decoration: const BoxDecoration(
                               color: Colors.white,

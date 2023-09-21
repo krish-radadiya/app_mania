@@ -399,6 +399,96 @@ class Global {
         },
       ],
     },
+    {
+      'categoryName': 'shakes',
+      'categoryFoods': [
+        {
+          'id': 1,
+          'name': 'McCafe-Mocha Frappe',
+          'time': '20min',
+          'price': 230,
+          'ratting': 4.4,
+          'klca': 100,
+          'discount': 4,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
+          'thumbnail':
+              "https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/350/CFRMCF-1999-1-1999.png",
+          'discription':
+              "A refreshing coffee beverage, blended with rich mocha sauce and our signature soft serve. Now in a new, convenient, delivery frinedly packaging",
+        },
+        {
+          'id': 2,
+          'name': 'thick chocolate shake',
+          'time': '20min',
+          'price': 69,
+          'ratting': 4.8,
+          'klca': 350,
+          'discount': 12,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
+          'thumbnail':
+              "https://images.unsplash.com/photo-1577805947697-89e18249d767?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hha2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+          'discription':
+              "Oreos, chocolate chip cookies, ice cream and more, this is one outrageously delicious recipe.",
+        },
+        {
+          'id': 3,
+          'name': 'Ultimate Brownie Milkshake',
+          'time': '20min',
+          'price': 430,
+          'ratting': 4.6,
+          'klca': 100,
+          'discount': 14,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
+          'thumbnail':
+              "https://i.pinimg.com/1200x/0a/6f/6b/0a6f6b609d196419531d937b8faef6fa.jpg",
+          'discription':
+              "The Ultimate Brownie Milkshake is an extremely decadent dessert and a satisfying milkshake all in one! Loaded with brownies,",
+        },
+        {
+          'id': 4,
+          'name': 'VEGAN MILKSHAKE',
+          'time': '20min',
+          'price': 160,
+          'ratting': 4.7,
+          'klca': 100,
+          'discount': 18,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
+          'thumbnail':
+              "https://www.theconsciousplantkitchen.com/wp-content/uploads/2022/07/Vegan-MilkShake-4.jpg",
+          'discription':
+              "This easy Vegan Milkshake recipe is a 4-ingredient creamy dairy-free milkshake with delicious strawberry flavor.",
+        },
+        {
+          'id': 5,
+          'name': 'oreo shake',
+          'time': '20min',
+          'price': 250,
+          'ratting': 5,
+          'klca': 100,
+          'discount': 16,
+          'faveProduct': false,
+          'quantity': 0,
+          'added': false,
+          'cartprice': 120,
+          'thumbnail':
+              "https://media.istockphoto.com/id/1024474156/photo/cookie-and-coffee-drink.webp?b=1&s=170667a&w=0&k=20&c=6M9CG7EH3gjF97_zFv-e6KQgpsydw2AGKmhzbC3AY5Q=",
+          'discription':
+              "There are few frozen confections we love more than a cool, creamy milkshake, especially when it’s made by the pros at our favorite local scoop shop",
+        },
+      ],
+    },
   ];
   static Set addFav = {};
   static List favData = addFav.toList();
